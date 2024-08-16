@@ -77,13 +77,13 @@
                 success: function (data) {
 				     jQuery("#pageloader").fadeOut();
 					 jQuery('#main-pop').modal('hide');
-					 gtag('event', 'conversion', {'send_to': 'AW-11134973561/eqHdCL_3uoEZEPnsyL0p'});
+					 gtag('event', 'conversion', {'send_to': 'AW-16673031734/-PfLCJaM9MoZELaMqY4-','value': 1.0,'currency': 'INR'});
 					 window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');				    
                 },
                 error: function () {
 				   jQuery("#pageloader").fadeOut();				   
 					 jQuery('#main-pop').modal('hide');
-					 gtag('event', 'conversion', {'send_to': 'AW-11134973561/eqHdCL_3uoEZEPnsyL0p'});
+					 gtag('event', 'conversion', {'send_to': 'AW-16673031734/-PfLCJaM9MoZELaMqY4-','value': 1.0,'currency': 'INR'});
 					 window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 }
 
@@ -117,13 +117,13 @@
                 success: function () {
 				      jQuery("#pageloader").fadeOut();
                       jQuery('#price-model').modal('hide');
-					  gtag('event', 'conversion', {'send_to': 'AW-11134973561/eqHdCL_3uoEZEPnsyL0p'});
+					  gtag('event', 'conversion', {'send_to': 'AW-16673031734/-PfLCJaM9MoZELaMqY4-','value': 1.0,'currency': 'INR'});
                       window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 },
                 error: function () {
 				   jQuery("#pageloader").fadeOut();
                    jQuery('#price-model').modal('hide');
-				   gtag('event', 'conversion', {'send_to': 'AW-11134973561/eqHdCL_3uoEZEPnsyL0p'});
+				   gtag('event', 'conversion', {'send_to': 'AW-16673031734/-PfLCJaM9MoZELaMqY4-','value': 1.0,'currency': 'INR'});
                    window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 }
 
@@ -157,13 +157,13 @@
                 success: function () {
 				      jQuery("#pageloader").fadeOut();
                       jQuery('#interested-model').modal('hide');
-					  gtag('event', 'conversion', {'send_to': 'AW-11134973561/eqHdCL_3uoEZEPnsyL0p'});
+					  gtag('event', 'conversion', {'send_to': 'AW-16673031734/-PfLCJaM9MoZELaMqY4-','value': 1.0,'currency': 'INR'});
                       window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 },
                 error: function () {
 				   jQuery("#pageloader").fadeOut();
                    jQuery('#interested-model').modal('hide');
-				   gtag('event', 'conversion', {'send_to': 'AW-11134973561/eqHdCL_3uoEZEPnsyL0p'});
+				   gtag('event', 'conversion', {'send_to': 'AW-16673031734/-PfLCJaM9MoZELaMqY4-','value': 1.0,'currency': 'INR'});
                    window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 }
 
