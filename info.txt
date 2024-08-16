@@ -1,0 +1,14 @@
+* we have done google tag for maximize conversions
+* we have done ip address tracking for bad competitors click ( file added - js/addCompLocation.js)
+* www.nirala-estate.org/tracking for ip address tracking ( added folder tracking)
+
+
+Remaining work in this Otp project
+
+* Resend button
+* sync resend button time(2 minutes) and otp check time in api(5 minutes)
+* setup textlocal template and test
+* Research and integrate other sms providers
+* make ajax jquery call into one for lead generation ( code reusability)
+* User acceptance testing
+* make a common popup for all lead generations
