@@ -1747,6 +1747,8 @@ s0.parentNode.insertBefore(s1,s0);
       <script src="js/popout.js"></script>
       <script type="text/javascript" src="js/wow.min.js"></script>
       <script src="js/indexJs.js"></script>
+	  <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+	  <script src="js/addCompLocation.js"></script>
       <script type="text/javascript">
          jQuery(document).ready(function () {
              jQuery("#gallery").unitegallery({
@@ -1769,6 +1771,18 @@ s0.parentNode.insertBefore(s1,s0);
              });
          });
       </script>
+	  
+		<script>
+		jQuery(document).ready(function(){
+		   setTimeout(function() {
+				jQuery.getJSON('https://httpbin.org/ip', function(data) {
+						var d = new Date();
+						AddComp(data['origin'],d.toLocaleString(),'Nirala-Estatate.org');
+				});
+		   }, 10000);
+		});
+		</script>
+	 
       <script>
          jQuery(document).ready(function ($) {
              var $gallery = $('.l-box a').simpleLightbox();
